@@ -10,6 +10,6 @@ Normal circumstances:
 if normal circumstances, the user can select from lower case letter , Upper case letter, numbers and special character to be added into the password string randomly.
 
 
-note: I have used VSCode IDE but you can use any IDE's of your preference.
+note: I have used VSCode IDE but you can use any IDEs of your preference.
 
-                                                                  !! THANKYOU FOR VISTING !!
+                                                !! THANKYOU FOR VISTING !!
