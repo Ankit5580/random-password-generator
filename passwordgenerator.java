@@ -3,9 +3,9 @@ given by user  */
 import java.util.Scanner;
 import java.util.Random;
 
-public class task4 {
+public class passwordgenerator {
     //creating a String function named as passwordGenerator
-    public static String passwordGenerator(int length, boolean includeNumbers, boolean includeLowercase, boolean includeUppercase, boolean includeSpecialChars){
+    public static String passwordCharacter(int length, boolean includeNumbers, boolean includeLowercase, boolean includeUppercase, boolean includeSpecialChars){
         String numbers = "0123456789";
         String lowerCaseLetter = "abcdefghijklmnopqrstuvwxyz";
         String upperCaseLetter = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -73,7 +73,7 @@ public class task4 {
         boolean includeSpecialChars = sc.nextBoolean();
 
 
-        String password = passwordGenerator(length, includeNumbers, includeLowercase, includeUppercase, includeSpecialChars);
+        String password = passwordCharacter(length, includeNumbers, includeLowercase, includeUppercase, includeSpecialChars);
         System.out.println("Generated Password : " + password);
 
 
